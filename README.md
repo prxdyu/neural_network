@@ -23,6 +23,11 @@ Initialization
 python
 Copy code
 -         Example Initialization
+  
+          # importing the custom built nn
+          from nn import NN
+      
+          # initializing the neural network
           model = NN(n_features, n_classes, n_hidden)
 Training
 
