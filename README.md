@@ -2,23 +2,23 @@
 <br>
 This repository contains a simple implementation of a neural network with one hidden layer, designed for classification tasks. The neural network is written in Python and utilizes the NumPy library for numerical operations.
 
-#### **Overview**
+### **Overview**
 The implemented neural network, named NN, is a feedforward neural network capable of handling classification tasks. The key features of this implementation include:
 
-#### **Architecture**:
+### **Architecture**:
 The neural network architecture is specified by the number of input features (n_features), the number of output classes (n_classes), and the number of neurons in the hidden layer (n_hidden).
 
-#### **Activation Functions**: 
+### **Activation Functions**: 
 ReLU (Rectified Linear Unit) activation is applied to the hidden layer, and softmax activation is applied to the output layer.
 
-#### **Loss Function**: 
+### **Loss Function**: 
 The cross-entropy loss function is used for training the neural network.
 
-#### **Regularization**: 
+### **Regularization**: 
 <br>
 L2 regularization is incorporated to prevent overfitting during training.
 
-#### **Usage**
+### **Usage**
 Initialization
 python
 Copy code
@@ -32,7 +32,7 @@ Prediction
 -      
        predictions = model.predict(X_test)
    
-##### **Parameters**
+#### **Parameters**
 - n_features: Number of input features.
 - n_classes: Number of output classes.
 - n_hidden: Number of neurons in the hidden layer.
