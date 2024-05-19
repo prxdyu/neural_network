@@ -26,26 +26,21 @@ Copy code
           model = NN(n_features, n_classes, n_hidden)
 Training
 
-         - model.fit(X_train, y_train, reg=0.01, max_iters=10000, eta=0.001)
+          model.fit(X_train, y_train, reg=0.01, max_iters=10000, eta=0.001)
 Prediction
 
--      
+      
        predictions = model.predict(X_test)
    
 #### **Parameters**
-- n_features: Number of input features.
-- n_classes: Number of output classes.
-- n_hidden: Number of neurons in the hidden layer.
-- reg: Regularization strength.
-- max_iters: Maximum number of training iterations.
-- eta: Learning rate.
+- **n_features**: Number of input features.
+- **n_classes**: Number of output classes.
+- **n_hidden**: Number of neurons in the hidden layer.
+- **reg**: Regularization strength.
+- **max_iters**: Maximum number of training iterations.
+- **eta**: Learning rate.
 
 **Example**
-An example script demonstrating the usage of the neural network for a classification task is provided in the example.ipynb notebook.
+An example script demonstrating the usage of the neural network for a classification task is provided in the evaluation.ipynb notebook.
 
 
-#### **Acknowledgments**
-Inspired by coursework in machine learning and neural networks.
-Feel free to explore, modify, and utilize this simple neural network implementation for your classification tasks!
-
-Feel free to customize this template according to your specific implementation and preferences. Include additional sections as needed for documentation, usage examples, and any other relevant information.
